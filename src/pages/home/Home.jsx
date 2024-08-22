@@ -5,7 +5,7 @@ function Home(){
         <div>
             <Navbar title = "حسین بلاگ"/>
              <div className="container">
-                <h3>Home</h3>
+                <h3 style={{textAlign:"right"}}>Home</h3>
              </div>
         </div>
     );
