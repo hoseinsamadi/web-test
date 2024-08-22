@@ -1,0 +1,16 @@
+.homeWarpper{
+
+}
+
+.homeWarpper h2{
+    text-align: right;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.articleW
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

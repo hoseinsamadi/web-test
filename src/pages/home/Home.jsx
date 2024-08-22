@@ -1,11 +1,24 @@
+import Article from "../../components/article/Article";
 import Navbar from "../../components/navbar/Navbar"
-
+import styled from "./home.module.css"
 function Home(){
     return(
-        <div>
+        <div className={styled.homeWarpper}>
             <Navbar title = "حسین بلاگ"/>
              <div className="container">
-                <h3 style={{textAlign:"right"}}>Home</h3>
+                    <h2>
+                        مقالات پیشنهادی
+                    </h2>
+                    <div className= {styled.articleW}>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    <Article/>
+                    </div>
              </div>
         </div>
     );
