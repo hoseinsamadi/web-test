@@ -25,3 +25,7 @@ ul {
   list-style: none;
 
 }
+
+.container {
+  padding: 0 160px;
+}
