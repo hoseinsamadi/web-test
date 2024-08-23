@@ -1,12 +1,13 @@
 import styled from "./article.module.css"
-import jsi from "./../../assets/images/js.jpeg"
+import aricle from "./../../assets/images/js.jpeg"
 
-function Article() {
+function Article(props) {
+    console.log(props.article)
     return (
         <div className={styled.articlewarpper}>
-           <img src={jsi} />
-           <h3>این یک پروزه ریکت است</h3>
-           <p>این خواندن 5 دقیقه ای است</p>
+           <img src={props.article.imageUrl} />
+           <h3>{props.article.title}</h3>
+           <p>این خواندن {props.article.readingTime} دقیقه ای است</p>
         </div>
     );
 }
